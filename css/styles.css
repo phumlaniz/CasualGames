@@ -1,0 +1,63 @@
+/*===================== BODY SELECTORS =====================*/
+div {
+    background-color: #eaf6f6;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    line-height: 2;
+    padding: 20px;
+}
+
+hr {
+    border: dotted #40514e 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.game-img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}

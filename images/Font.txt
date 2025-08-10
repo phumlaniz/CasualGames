@@ -1,0 +1,37 @@
+Your logo has a chilled, retro beach vibe with bold rounded lettering. Here are free web fonts that fit your style and are easy to implement:
+
+Font	Style	Preview	Use
+Fredoka	Rounded, friendly	
+font-family: 'Fredoka', sans-serif;
+Baloo 2	Bold & playful	
+font-family: 'Baloo 2', cursive;
+Nunito	Clean rounded sans	
+font-family: 'Nunito', sans-serif;
+
+You can embed one like this in your HTML:
+
+html
+Copy
+Edit
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Fredoka', sans-serif;
+  }
+</style>
+🔧 Option 2: Generate a Fully Custom Font
+If you want a unique custom font based on your logo style:
+
+Use a tool like Calligraphr (lets you draw your own font).
+
+Or try Fontself (a paid plugin for Illustrator/Photoshop).
+
+If you’d like, I can sketch out a basic alphabet sheet inspired by your logo that you can trace or edit to create your font.
+
+Would you like me to:
+
+Generate an inspired font alphabet design (A–Z)?
+
+Or provide CSS samples with the fonts above applied to different web elements?
+
+Let me know how deep you want to go with this!
