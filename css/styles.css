@@ -1,63 +1,122 @@
-/*===================== BODY SELECTORS =====================*/
-div {
-    background-color: #eaf6f6;
-}
-
-h1 {
-    font-family: 'Sacramento', cursive;
-    margin: 50px auto 0 auto;
-    font-size: 5.625rem;
-    color: #66bfbf;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #66bfbf;
-    font-weight: normal;
-}
-
-h3 {
-    color: #11999e;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 a {
-    color: #11999e;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    padding: 0 20px;
+    color: #5a5a5a;
 }
 
-a:hover {
-    color: #eaf6f6;
+img {
+    cursor: pointer;
 }
 
-body {
-    color: #40514e;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+.flex-div {
+    display: flex;
+    align-items: center;
 }
 
-p {
-    line-height: 2;
-    padding: 20px;
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    z-index: 10;
 }
 
-hr {
-    border: dotted #40514e 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-left img {
+    height: 25px;
+    margin-right: 25px;
+}
+
+.nav-left .menu-icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-middle .search-bar {
+    border: 3px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-bar input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-bar img {
+    height: 25px;
 }
 
 .game-img {
-    width: 20%;
-    float: left;
+    height: 250px;
+}
+
+.quick-access-bar {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+
+.quick-access-bar a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.quick-access-bar img {
+    width: 25px;
     margin-right: 20px;
 }
 
-.top-container {
-    position: relative;
-    padding-top: 100px;
+.quick-access-bar hr {
+    border: 0;
+    height: 3px;
+    background-color: #ccc;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.quick-access-bar .addition-info {
+    position: absolute;
+    bottom: 25px;
+}
+
+.quick-access-bar .addition-info p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recent-list h3 {
+    font-size: 15px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.recent-list a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20 px;
+    width: fit-content;
+    flex-wrap: wrap;
 }
