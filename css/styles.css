@@ -120,3 +120,7 @@ nav {
     width: fit-content;
     flex-wrap: wrap;
 }
+
+.minimised-quick-access-bar{
+    width: 5%;
+}

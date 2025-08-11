@@ -1,4 +1,4 @@
-var menuIcon = document.querySelector(".menu_burger");
+var menuIcon = document.querySelector(".menu-icon");
 var sidebar = document.querySelector(".quick-access-bar");
 
 menuIcon.onClick = function(){
