@@ -6,3 +6,4 @@ deployment:
     - /bin/cp css $DEPLOYPATH
     - /bin/cp images $DEPLOYPATH
     - /bin/cp test $DEPLOYPATH
+    - /bin cp games $DEPLOYPATH
